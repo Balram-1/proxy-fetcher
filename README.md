@@ -2,7 +2,7 @@
 Universal Public Proxy Fetcher is a powerful, stylish Python tool that fetches fresh public proxies (HTTP, HTTPS, SOCKS4, SOCKS5) from the largest collection of trusted sources on the internet.
 
 
-![banner](https://raw.githubusercontent.com/Balram-1/Balram-1/main/image.png)
+![banner](https://github.com/Balram-1/proxy-fetcher/blob/main/main/image.png)
 
 > **Made by [@balrampreet1](https://github.com/balrampreet1)**
 
