@@ -20,11 +20,10 @@ Universal Public Proxy Fetcher is a powerful, stylish Python tool that fetches f
 
 ---
 
-## 🎬 Demo
 
-![demo gif](https://raw.githubusercontent.com/Balram-1/Balram-1/main/assets/proxy-fetcher-demo.gif)
 
----
+
+
 
 ## 🛠️ Installation
 
@@ -75,8 +74,9 @@ MIT
 Made with ❤️ by [@balrampreet1](https://github.com/balrampreet1)
 
 ---
+## 🎬 Demo
 ![image](https://github.com/user-attachments/assets/f6b59445-83a8-4538-9c21-b4d660048145)
-
+---
 
 
 
