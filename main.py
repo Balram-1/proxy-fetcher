@@ -25,37 +25,47 @@ CREDITS = Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "\nMade by @balrampreet1\n"
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
 }
-
 proxy_sources = {
     'http': [
         'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all',
         'https://spys.me/proxy.txt',
-        'https://free-proxy-list.net/?c=HTTP',
         'https://www.proxy-list.download/api/v1/get?type=http',
         'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt',
-        'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt'
+        'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt',
+        'https://proxyspace.pro/http.txt',
+        'https://multiproxy.org/txt_all/proxy.txt',
+        'https://openproxy.space/list/http',
+        'https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt',
+        'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt'
     ],
     'https': [
         'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=https&timeout=10000&country=all',
         'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt',
         'https://www.proxy-list.download/api/v1/get?type=https',
-        'https://free-proxy-list.net/?c=HTTPS',
+        'https://proxyspace.pro/https.txt',
+        'https://openproxy.space/list/https',
+        'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt'
     ],
     'socks4': [
         'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all',
         'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt',
-        'https://www.socks-proxy.net/#get',
         'https://www.proxy-list.download/api/v1/get?type=socks4',
-        'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt'
+        'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt',
+        'https://proxyspace.pro/socks4.txt',
+        'https://openproxy.space/list/socks4',
+        'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt'
     ],
     'socks5': [
         'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all',
         'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt',
-        'https://www.socks-proxy.net/',
         'https://www.proxy-list.download/api/v1/get?type=socks5',
-        'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt'
+        'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt',
+        'https://proxyspace.pro/socks5.txt',
+        'https://openproxy.space/list/socks5',
+        'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt'
     ]
 }
+
 
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
